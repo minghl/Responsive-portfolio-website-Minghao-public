@@ -1,4 +1,4 @@
 # Responsive-portfolio-website-Minghao
 
 Click here to see my portfolio:
-www.portfolio-minghao-li-1127.com
+https://minghl.github.io/Responsive-portfolio-website-Minghao/
