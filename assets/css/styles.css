@@ -360,6 +360,10 @@ img {
   transition: .3s;
 }
 
+.button:hover .button__icon{
+  transform: translateX(.25rem);
+}
+
 .button--white {
   background-color: #FFF;
   color: var(--first-color);
@@ -367,10 +371,6 @@ img {
 
 .button--white:hover {
   background-color: #FFF;
-}
-
-.button--white:hover .button__icon{
-  transform:translateX(0.25rem);
 }
 
 .button--flex {
@@ -431,7 +431,9 @@ img {
   display: flex;
   justify-content: center;
 }
-
+.about__buttons .button:hover .button__icon{
+  transform: translateY(.25rem);
+}
 .about__data{
   margin:auto 0;
 }
@@ -680,10 +682,6 @@ img {
   font-size: var(--small-font-size);
 }
 
-.services__button:hover .button__icon {
-  transform: translateX(0.25rem);
-}
-
 .services__modal {
   position: fixed;
   top: 0;
@@ -766,10 +764,6 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
-.portfolio__button:hover .button__icon {
-  transform: translateX(0.25rem);
-}
-
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: '';
@@ -832,46 +826,6 @@ img {
   object-fit: cover;
   object-position: 100% 0;
 }
-
-/*==================== TESTIMONIAL ====================*/
-.testimonial__data, .testimonial__header {
-  display: flex;
-}
-
-.testimonial__data {
-  justify-content: space-between;
-  margin-bottom: var(--mb-1);
-}
-
-.testimonial__img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: var(--mb-0-75);
-}
-
-.testimonial__name {
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
-}
-
-.testimonial__client {
-  font-size: var(--small-font-size);
-  color: var(--text-color-light);
-}
-
-.testimonial__description {
-  margin-bottom: var(--mb-2-5);
-}
-
-.testimonial__icon-star {
-  color: var(--first-color);
-}
-
-.swiper-container .swiper-pagination-testimonial {
-  bottom: 0;
-}
-
 /*==================== CONTACT ME ====================*/
 .contact__container {
   row-gap: 3rem;
@@ -918,6 +872,17 @@ img {
   border: none;
   outline: none;
   padding: .25rem .5rem .5rem 0;
+}
+
+#contact__button{
+  border: none;
+  /* margin: 0;
+	padding: 0; */
+  font: inherit;
+}
+
+#contact__button:hover{
+  cursor: pointer;
 }
 
 /*==================== FOOTER ====================*/
