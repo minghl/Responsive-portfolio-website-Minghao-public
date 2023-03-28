@@ -601,7 +601,7 @@ img {
 }
 
 .qualification__uni{
-  display: inline-block;
+  display: block;
   font-size:var(--smaller-font-size);
   margin-bottom: var(--mb-1);
   color: inherit;
